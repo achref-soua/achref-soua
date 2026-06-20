@@ -180,7 +180,7 @@ function renderSvg({ avatarPng, activityDays, stats }) {
 
   <text x="174" y="84" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#22c55e">$ whoami</text>
   <text x="174" y="116" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#e5e7eb">Achref Soua</text>
-  <text x="176" y="143" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#38bdf8">role: data science</text>
+  <text x="176" y="143" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#38bdf8">role: data scientist</text>
   <text x="176" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#64748b">status: building</text>
 
   ${renderStats(stats)}

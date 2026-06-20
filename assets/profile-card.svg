@@ -159,18 +159,18 @@
 
   <text x="174" y="84" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#22c55e">$ whoami</text>
   <text x="174" y="116" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#e5e7eb">Achref Soua</text>
-  <text x="176" y="143" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#38bdf8">role: data science</text>
+  <text x="176" y="143" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#38bdf8">role: data scientist</text>
   <text x="176" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#64748b">status: building</text>
 
   <g>
     <rect x="514" y="78" width="90" height="42" rx="7" fill="#07111f" stroke="#1e3a5f" />
     <text x="559" y="93" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#64748b">CONTRIB</text>
-    <text x="559" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="800" fill="#d1fae5">1,211</text>
+    <text x="559" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="800" fill="#d1fae5">1,212</text>
   </g>
   <g>
     <rect x="618" y="78" width="90" height="42" rx="7" fill="#07111f" stroke="#1e3a5f" />
     <text x="663" y="93" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#64748b">COMMITS</text>
-    <text x="663" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="800" fill="#d1fae5">630</text>
+    <text x="663" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="800" fill="#d1fae5">631</text>
   </g>
   <g>
     <rect x="722" y="78" width="90" height="42" rx="7" fill="#07111f" stroke="#1e3a5f" />
