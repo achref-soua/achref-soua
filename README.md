@@ -2,11 +2,11 @@
 
 # About Me
 
-### Achref Soua · Systems, AI, and product engineering
+### Achref Soua · Data science, AI, and product engineering
 
 <p>
-  <a href="https://github.com/achref-soua"><img src="https://img.shields.io/badge/Achref%20Soua-systems%20engineer-8B4513?style=for-the-badge&logo=github&logoColor=white" alt="Achref Soua, systems engineer" /></a>
-  <a href="https://github.com/achref-soua?tab=repositories"><img src="https://img.shields.io/badge/portfolio-systems%20%2B%20AI-B87333?style=for-the-badge" alt="Portfolio: systems and AI" /></a>
+  <a href="https://github.com/achref-soua"><img src="https://img.shields.io/badge/Achref%20Soua-data%20science-8B4513?style=for-the-badge&logo=github&logoColor=white" alt="Achref Soua, data science" /></a>
+  <a href="https://github.com/achref-soua?tab=repositories"><img src="https://img.shields.io/badge/portfolio-data%20science%20%2B%20AI-B87333?style=for-the-badge" alt="Portfolio: data science and AI" /></a>
   <img src="https://img.shields.io/badge/Rust-systems-2B2118?style=for-the-badge&logo=rust&logoColor=white" alt="Rust systems" />
   <img src="https://img.shields.io/badge/TypeScript-product-1C1A17?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript product" />
   <img src="https://img.shields.io/badge/Python-AI%20%2B%20data-A15C38?style=for-the-badge&logo=python&logoColor=white" alt="Python AI and data" />
@@ -23,20 +23,26 @@
 
 ---
 
-I build ambitious, production-minded software where systems engineering, AI, and
-polished product UX meet. My favorite projects are fast, self-hostable,
-well-documented, and honest about tradeoffs: Rust cores when correctness and
-performance matter, TypeScript and Python at the product edge, and enough visual
-taste to make serious tools feel good in the hand.
+I build data-driven, AI-native products that are fast, self-hostable, and engineered to be trusted.
 
-<div align="center">
-
-<a href="https://github.com/achref-soua/quiver"><img src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=quiver&theme=gruvbox&hide_border=true" alt="Quiver pinned card" /></a>
-<a href="https://github.com/achref-soua/galley"><img src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=galley&theme=gruvbox&hide_border=true" alt="Galley pinned card" /></a>
-<a href="https://github.com/achref-soua/pulse"><img src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=pulse&theme=gruvbox&hide_border=true" alt="Pulse pinned card" /></a>
-<a href="https://github.com/achref-soua/helio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=helio&theme=gruvbox&hide_border=true" alt="Helio pinned card" /></a>
-
-</div>
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/achref-soua/quiver"><img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=quiver&theme=gruvbox&hide_border=true" alt="Quiver pinned card" /></a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/achref-soua/galley"><img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=galley&theme=gruvbox&hide_border=true" alt="Galley pinned card" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/achref-soua/pulse"><img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=pulse&theme=gruvbox&hide_border=true" alt="Pulse pinned card" /></a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/achref-soua/helio"><img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=helio&theme=gruvbox&hide_border=true" alt="Helio pinned card" /></a>
+    </td>
+  </tr>
+</table>
 
 ## Featured Projects
 
@@ -77,11 +83,3 @@ taste to make serious tools feel good in the hand.
 If you are browsing my work, start with **Quiver** for the systems side,
 **Galley** for desktop product craft, **Pulse** for AI workflow design, and
 **Helio** for full-stack platform architecture.
-
----
-
-<div align="center">
-
-<sub>Bronze palette, clean architecture, real tests.</sub>
-
-</div>
