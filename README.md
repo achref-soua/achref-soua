@@ -46,3 +46,11 @@
     </td>
   </tr>
 </table>
+
+<div align="center">
+
+<sub>Contribution Signal</sub>
+
+<img width="860" src="https://github-readme-activity-graph.vercel.app/graph?username=achref-soua&amp;bg_color=ffffff&amp;color=111827&amp;line=2563eb&amp;point=111827&amp;area=true&amp;area_color=dbeafe&amp;hide_border=true&amp;custom_title=Contribution%20Signal" alt="Achref Soua GitHub contribution activity graph" />
+
+</div>
