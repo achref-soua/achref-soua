@@ -5,7 +5,7 @@
 ### Achref Soua · Systems, AI, and product engineering
 
 <p>
-  <a href="https://github.com/achref-soua"><img src="https://img.shields.io/badge/Achref%20Soua-open%20source%20builder-8B4513?style=for-the-badge&logo=github&logoColor=white" alt="Achref Soua, open source builder" /></a>
+  <a href="https://github.com/achref-soua"><img src="https://img.shields.io/badge/Achref%20Soua-systems%20engineer-8B4513?style=for-the-badge&logo=github&logoColor=white" alt="Achref Soua, systems engineer" /></a>
   <a href="https://github.com/achref-soua?tab=repositories"><img src="https://img.shields.io/badge/portfolio-systems%20%2B%20AI-B87333?style=for-the-badge" alt="Portfolio: systems and AI" /></a>
   <img src="https://img.shields.io/badge/Rust-systems-2B2118?style=for-the-badge&logo=rust&logoColor=white" alt="Rust systems" />
   <img src="https://img.shields.io/badge/TypeScript-product-1C1A17?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript product" />
@@ -33,6 +33,8 @@ taste to make serious tools feel good in the hand.
 
 <a href="https://github.com/achref-soua/quiver"><img src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=quiver&theme=gruvbox&hide_border=true" alt="Quiver pinned card" /></a>
 <a href="https://github.com/achref-soua/galley"><img src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=galley&theme=gruvbox&hide_border=true" alt="Galley pinned card" /></a>
+<a href="https://github.com/achref-soua/pulse"><img src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=pulse&theme=gruvbox&hide_border=true" alt="Pulse pinned card" /></a>
+<a href="https://github.com/achref-soua/helio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=achref-soua&repo=helio&theme=gruvbox&hide_border=true" alt="Helio pinned card" /></a>
 
 </div>
 
