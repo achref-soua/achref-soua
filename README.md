@@ -49,8 +49,23 @@
 
 <div align="center">
 
-<sub>Contribution Signal</sub>
+<sub>Signal</sub>
 
-<img width="860" src="https://github-readme-activity-graph.vercel.app/graph?username=achref-soua&amp;bg_color=ffffff&amp;color=111827&amp;line=2563eb&amp;point=111827&amp;area=true&amp;area_color=dbeafe&amp;hide_border=true&amp;custom_title=Contribution%20Signal" alt="Achref Soua GitHub contribution activity graph" />
+<table align="center">
+  <tr>
+    <td align="center" width="25%"><sub>CONTRIBUTIONS</sub><br /><strong>1,209</strong></td>
+    <td align="center" width="25%"><sub>COMMITS</sub><br /><strong>628</strong></td>
+    <td align="center" width="25%"><sub>PRS</sub><br /><strong>539</strong></td>
+    <td align="center" width="25%"><sub>REPOS</sub><br /><strong>14</strong></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><sub>ISSUES</sub><br /><strong>1</strong></td>
+    <td align="center" width="25%"><sub>REVIEWS</sub><br /><strong>0</strong></td>
+    <td align="center" width="25%"><sub>STARS</sub><br /><strong>2</strong></td>
+    <td align="center" width="25%"><sub>FORKS</sub><br /><strong>1</strong></td>
+  </tr>
+</table>
+
+<img width="860" src="https://github-readme-activity-graph.vercel.app/graph?username=achref-soua&amp;bg_color=ffffff&amp;color=111827&amp;line=2563eb&amp;point=111827&amp;area=true&amp;area_color=dbeafe&amp;grid_color=e5e7eb&amp;hide_border=true&amp;custom_title=Activity" alt="Achref Soua GitHub contribution activity graph" />
 
 </div>
