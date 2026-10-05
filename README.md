@@ -15,3 +15,7 @@
 </sub>
 
 </div>
+
+The profile card refreshes daily at 06:17 UTC. Contribution, commit, pull request,
+issue, and review counts cover the last 365 days; activity bars cover the last 30 days.
+Repository, star, and fork counts reflect public repositories.

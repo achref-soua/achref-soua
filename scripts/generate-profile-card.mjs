@@ -198,7 +198,6 @@ async function main() {
   const now = new Date();
   const userQuery = `query($login:String!,$from:DateTime!,$to:DateTime!){
     user(login:$login){
-      createdAt
       repositories(first:100, ownerAffiliations:OWNER, isFork:false, privacy:PUBLIC){
         totalCount
         nodes{
@@ -223,8 +222,8 @@ async function main() {
     }
   }`;
 
-  const seed = await graphql(`query($login:String!){ user(login:$login){ createdAt } }`, { login });
-  const from = seed.user.createdAt;
+  // GitHub limits contribution queries to one year; 365 days also handles leap years.
+  const from = new Date(now.getTime() - 365 * 24 * 60 * 60 * 1000).toISOString();
   const to = now.toISOString();
   const data = await graphql(userQuery, { login, from, to });
   const user = data.user;
