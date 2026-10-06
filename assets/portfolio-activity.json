@@ -1,0 +1,218 @@
+{
+  "githubUpdatedAt": "2026-10-06T21:52:26.993Z",
+  "user": {
+    "public_repos": 14,
+    "followers": 3
+  },
+  "repos": [
+    {
+      "name": "AWS-FinOps-assistant",
+      "html_url": "https://github.com/achref-soua/AWS-FinOps-assistant",
+      "description": null,
+      "language": "Python",
+      "updated_at": "2025-08-24T12:04:27Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false
+    },
+    {
+      "name": "AI-assisted-cardiac-MRI-diagnosis",
+      "html_url": "https://github.com/achref-soua/AI-assisted-cardiac-MRI-diagnosis",
+      "description": null,
+      "language": "Python",
+      "updated_at": "2025-08-22T20:15:35Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false
+    },
+    {
+      "name": "Meal-recommendation-system-using-Q-learning",
+      "html_url": "https://github.com/achref-soua/Meal-recommendation-system-using-Q-learning",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "updated_at": "2025-08-22T20:16:36Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false
+    },
+    {
+      "name": "nlp-knowledge-graph-semantic-search",
+      "html_url": "https://github.com/achref-soua/nlp-knowledge-graph-semantic-search",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "updated_at": "2025-08-22T20:17:13Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false
+    },
+    {
+      "name": "Multimodal-rag",
+      "html_url": "https://github.com/achref-soua/Multimodal-rag",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "updated_at": "2025-08-22T09:33:54Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false
+    },
+    {
+      "name": "Streamlit-resume-tool-app-using-Groq-LLMs",
+      "html_url": "https://github.com/achref-soua/Streamlit-resume-tool-app-using-Groq-LLMs",
+      "description": null,
+      "language": "Python",
+      "updated_at": "2025-08-24T10:15:00Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false
+    },
+    {
+      "name": "pulse",
+      "html_url": "https://github.com/achref-soua/pulse",
+      "description": null,
+      "language": "Python",
+      "updated_at": "2026-07-16T05:32:44Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false
+    },
+    {
+      "name": "Graph-Learning-for-Molecular-Data--Classification---Generation",
+      "html_url": "https://github.com/achref-soua/Graph-Learning-for-Molecular-Data--Classification---Generation",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "updated_at": "2025-09-02T07:57:37Z",
+      "stargazers_count": 0,
+      "forks_count": 1,
+      "fork": false
+    },
+    {
+      "name": "achref-soua.github.io",
+      "html_url": "https://github.com/achref-soua/achref-soua.github.io",
+      "description": null,
+      "language": "JavaScript",
+      "updated_at": "2026-10-06T21:46:52Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false
+    },
+    {
+      "name": "helio",
+      "html_url": "https://github.com/achref-soua/helio",
+      "description": "The open-source growth platform — AI-native marketing automation: CDP, segmentation, cross-channel journeys, email, analytics. Self-hostable, data-sovereign.",
+      "language": "TypeScript",
+      "updated_at": "2026-10-02T09:48:32Z",
+      "stargazers_count": 16,
+      "forks_count": 5,
+      "fork": false
+    },
+    {
+      "name": "quiver",
+      "html_url": "https://github.com/achref-soua/quiver",
+      "description": "Security-first, memory-frugal vector database in Rust with a retro terminal cockpit.",
+      "language": "Rust",
+      "updated_at": "2026-10-06T21:23:40Z",
+      "stargazers_count": 3,
+      "forks_count": 0,
+      "fork": false
+    },
+    {
+      "name": "galley",
+      "html_url": "https://github.com/achref-soua/galley",
+      "description": "A local-first, blazing-fast LaTeX studio. Pull a proof.",
+      "language": "TypeScript",
+      "updated_at": "2026-06-21T20:07:22Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false
+    },
+    {
+      "name": "achref-soua",
+      "html_url": "https://github.com/achref-soua/achref-soua",
+      "description": "GitHub profile README",
+      "language": "JavaScript",
+      "updated_at": "2026-10-06T13:19:08Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false
+    },
+    {
+      "name": "ehr-form-standardization-platform",
+      "html_url": "https://github.com/achref-soua/ehr-form-standardization-platform",
+      "description": "Open-source reference platform for deterministic EHR form standardization, provenance, quality controls, and research-ready exports using synthetic data.",
+      "language": "Python",
+      "updated_at": "2026-10-06T21:33:15Z",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false
+    }
+  ],
+  "mediumUpdatedAt": "2026-10-06T21:52:26.993Z",
+  "medium": [
+    {
+      "title": "Quiver, Part 5: Beyond Search: RAG, Ops, and Scaling Out Without Breaking a Promise",
+      "link": "https://achref-soua.medium.com/quiver-part-5-beyond-search-rag-ops-and-scaling-out-without-breaking-a-promise-9b4f36606b1c?source=rss-7301f69af1cc------2",
+      "pubDate": "2026-08-11 20:11:33",
+      "categories": []
+    },
+    {
+      "title": "Quiver, Part 4: The Numbers, Honestly: Benchmarking at a Fixed Recall (and Where Mine Loses)",
+      "link": "https://achref-soua.medium.com/quiver-part-4-the-numbers-honestly-benchmarking-at-a-fixed-recall-and-where-mine-loses-fcfced602451?source=rss-7301f69af1cc------2",
+      "pubDate": "2026-08-11 20:11:22",
+      "categories": [
+        "faiss",
+        "machine-learning",
+        "benchmarking",
+        "performance",
+        "vector-database"
+      ]
+    },
+    {
+      "title": "Quiver, Part 3: Surviving kill -9, the Trust Layer of a Vector Database",
+      "link": "https://achref-soua.medium.com/quiver-part-3-surviving-kill-9-the-trust-layer-of-a-vector-database-7dca4efd2f4d?source=rss-7301f69af1cc------2",
+      "pubDate": "2026-08-10 20:05:35",
+      "categories": [
+        "database",
+        "security",
+        "vector-database",
+        "encryption",
+        "rust"
+      ]
+    },
+    {
+      "title": "Quiver, Part 2: Inside the Engine: SIMD, HNSW, and the 32× Memory Trick",
+      "link": "https://achref-soua.medium.com/quiver-part-2-inside-the-engine-simd-hnsw-and-the-32-memory-trick-21538546c6c2?source=rss-7301f69af1cc------2",
+      "pubDate": "2026-08-10 20:03:22",
+      "categories": [
+        "algorithms",
+        "vector-database",
+        "rust",
+        "retrieval-augmented-gen",
+        "artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Quiver, Part 1: What Is a Vector Database? The Four Ideas Behind the One I Built",
+      "link": "https://achref-soua.medium.com/quiver-part-1-what-is-a-vector-database-the-four-ideas-behind-the-one-i-built-f51a62241339?source=rss-7301f69af1cc------2",
+      "pubDate": "2026-07-18 18:47:26",
+      "categories": [
+        "llm",
+        "artificial-intelligence",
+        "vector-database",
+        "retrieval-augmented-gen",
+        "semantic-search"
+      ]
+    },
+    {
+      "title": "☀️Helio: The Free, Open-Source HubSpot alternative you can actually own",
+      "link": "https://achref-soua.medium.com/%EF%B8%8Fhelio-the-free-open-source-hubspot-alternative-you-can-actually-own-372eaa09990a?source=rss-7301f69af1cc------2",
+      "pubDate": "2026-06-13 13:26:50",
+      "categories": [
+        "software-development",
+        "technology",
+        "ai",
+        "marketing",
+        "open-source"
+      ]
+    }
+  ]
+}

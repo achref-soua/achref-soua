@@ -9,6 +9,7 @@ const repoRoot = resolve(__dirname, "..");
 const login = process.env.PROFILE_LOGIN ?? "achref-soua";
 const avatarPath = resolve(repoRoot, "assets/avatar.svg");
 const outputPath = resolve(repoRoot, "assets/profile-card.svg");
+const activityPath = resolve(repoRoot, "assets/portfolio-activity.json");
 
 function getToken() {
   if (process.env.GITHUB_TOKEN) return process.env.GITHUB_TOKEN;
@@ -198,9 +199,16 @@ async function main() {
   const now = new Date();
   const userQuery = `query($login:String!,$from:DateTime!,$to:DateTime!){
     user(login:$login){
+      followers { totalCount }
+      publicRepositories: repositories(ownerAffiliations:OWNER, privacy:PUBLIC) { totalCount }
       repositories(first:100, ownerAffiliations:OWNER, isFork:false, privacy:PUBLIC){
         totalCount
         nodes{
+          name
+          url
+          description
+          updatedAt
+          primaryLanguage { name }
           stargazerCount
           forkCount
           issues{ totalCount }
@@ -246,6 +254,39 @@ async function main() {
 
   mkdirSync(dirname(outputPath), { recursive: true });
   writeFileSync(outputPath, svg);
+
+  // Publish public data for the portfolio without exposing an API token.
+  let previous = {};
+  try { previous = JSON.parse(readFileSync(activityPath, "utf8")); } catch { /* First refresh. */ }
+  let articles = previous.medium || [];
+  let mediumUpdatedAt = previous.mediumUpdatedAt || null;
+  try {
+    const rss = encodeURIComponent(`https://medium.com/feed/@${login}`);
+    const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rss}`, {
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!response.ok) throw new Error(`Medium HTTP ${response.status}`);
+    const feed = await response.json();
+    if (feed.status !== "ok" || !Array.isArray(feed.items)) throw new Error("Invalid Medium feed");
+    articles = feed.items.map(({ title, link, pubDate, categories }) => ({ title, link, pubDate, categories }));
+    mediumUpdatedAt = to;
+  } catch (error) {
+    // Keep the last good feed rather than fail the daily job for a third-party outage.
+    console.warn(`Keeping saved Medium articles: ${error.message}`);
+  }
+  const snapshot = {
+    githubUpdatedAt: to,
+    user: { public_repos: user.publicRepositories.totalCount, followers: user.followers.totalCount },
+    repos: repositories.map((repo) => ({
+      name: repo.name, html_url: repo.url, description: repo.description,
+      language: repo.primaryLanguage?.name || null, updated_at: repo.updatedAt,
+      stargazers_count: repo.stargazerCount, forks_count: repo.forkCount, fork: false,
+    })),
+    mediumUpdatedAt,
+    medium: articles,
+  };
+  writeFileSync(activityPath, `${JSON.stringify(snapshot, null, 2)}\n`);
+  console.log(`Generated ${activityPath}`);
   console.log(`Generated ${outputPath}`);
 }
 

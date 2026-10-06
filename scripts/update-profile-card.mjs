@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = resolve(__dirname, "..");
+const generatedPaths = ["assets/profile-card.svg", "assets/portfolio-activity.json"];
 const commitMessage = process.env.PROFILE_CARD_COMMIT_MESSAGE ?? "docs: refresh profile card";
 
 function git(args, options = {}) {
@@ -24,12 +25,7 @@ function run(command, args) {
 }
 
 function hasChanges() {
-  try {
-    git(["diff", "--quiet", "--", "assets/profile-card.svg"]);
-    return false;
-  } catch {
-    return true;
-  }
+  return Boolean(git(["status", "--porcelain", "--", ...generatedPaths]));
 }
 
 function ensureGitIdentity() {
@@ -60,6 +56,6 @@ if (!hasChanges()) {
 }
 
 ensureGitIdentity();
-git(["add", "assets/profile-card.svg"]);
+git(["add", ...generatedPaths]);
 run("git", ["commit", "-m", commitMessage]);
 run("git", ["push"]);

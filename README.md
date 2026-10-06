@@ -19,3 +19,6 @@
 The profile card refreshes daily at 06:17 UTC. Contribution, commit, pull request,
 issue, and review counts cover the last 365 days; activity bars cover the last 30 days.
 Repository, star, and fork counts reflect public repositories.
+
+
+The daily refresh also writes `assets/portfolio-activity.json` for the portfolio. It contains public repository metadata, repository/star/fork/follower counts, and Medium article titles/links. Medium outages preserve the last successful feed and its timestamp. The same existing scheduled job publishes both generated files.
