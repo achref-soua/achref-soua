@@ -1,5 +1,5 @@
 {
-  "githubUpdatedAt": "2026-10-07T13:24:35.562Z",
+  "githubUpdatedAt": "2026-10-08T13:30:34.653Z",
   "user": {
     "public_repos": 14,
     "followers": 4
@@ -90,7 +90,7 @@
       "html_url": "https://github.com/achref-soua/achref-soua.github.io",
       "description": null,
       "language": "JavaScript",
-      "updated_at": "2026-10-06T22:55:46Z",
+      "updated_at": "2026-10-07T20:33:12Z",
       "stargazers_count": 0,
       "forks_count": 0,
       "fork": false
@@ -130,7 +130,7 @@
       "html_url": "https://github.com/achref-soua/achref-soua",
       "description": "GitHub profile README",
       "language": "JavaScript",
-      "updated_at": "2026-10-06T21:54:17Z",
+      "updated_at": "2026-10-07T20:24:02Z",
       "stargazers_count": 0,
       "forks_count": 0,
       "fork": false
@@ -146,7 +146,7 @@
       "fork": false
     }
   ],
-  "mediumUpdatedAt": "2026-10-07T13:24:35.562Z",
+  "mediumUpdatedAt": "2026-10-08T13:30:34.653Z",
   "medium": [
     {
       "title": "Quiver, Part 5: Beyond Search: RAG, Ops, and Scaling Out Without Breaking a Promise",
