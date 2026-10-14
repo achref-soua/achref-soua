@@ -1,5 +1,5 @@
 {
-  "githubUpdatedAt": "2026-10-13T14:12:34.675Z",
+  "githubUpdatedAt": "2026-10-14T11:52:57.351Z",
   "user": {
     "public_repos": 14,
     "followers": 4
@@ -100,8 +100,8 @@
       "html_url": "https://github.com/achref-soua/helio",
       "description": "The open-source growth platform — AI-native marketing automation: CDP, segmentation, cross-channel journeys, email, analytics. Self-hostable, data-sovereign.",
       "language": "TypeScript",
-      "updated_at": "2026-10-02T09:48:32Z",
-      "stargazers_count": 16,
+      "updated_at": "2026-10-14T09:54:11Z",
+      "stargazers_count": 17,
       "forks_count": 5,
       "fork": false
     },
@@ -130,7 +130,7 @@
       "html_url": "https://github.com/achref-soua/achref-soua",
       "description": "GitHub profile README",
       "language": "JavaScript",
-      "updated_at": "2026-10-12T15:26:52Z",
+      "updated_at": "2026-10-13T14:12:45Z",
       "stargazers_count": 0,
       "forks_count": 0,
       "fork": false
@@ -146,7 +146,7 @@
       "fork": false
     }
   ],
-  "mediumUpdatedAt": "2026-10-13T14:12:34.675Z",
+  "mediumUpdatedAt": "2026-10-14T11:52:57.351Z",
   "medium": [
     {
       "title": "Quiver, Part 5: Beyond Search: RAG, Ops, and Scaling Out Without Breaking a Promise",
