@@ -165,17 +165,17 @@
   <g>
     <rect x="514" y="78" width="90" height="42" rx="7" fill="#07111f" stroke="#1e3a5f" />
     <text x="559" y="93" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#64748b">CONTRIB</text>
-    <text x="559" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="800" fill="#d1fae5">2,583</text>
+    <text x="559" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="800" fill="#d1fae5">2,591</text>
   </g>
   <g>
     <rect x="618" y="78" width="90" height="42" rx="7" fill="#07111f" stroke="#1e3a5f" />
     <text x="663" y="93" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#64748b">COMMITS</text>
-    <text x="663" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="800" fill="#d1fae5">949</text>
+    <text x="663" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="800" fill="#d1fae5">953</text>
   </g>
   <g>
     <rect x="722" y="78" width="90" height="42" rx="7" fill="#07111f" stroke="#1e3a5f" />
     <text x="767" y="93" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#64748b">PRS</text>
-    <text x="767" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="800" fill="#d1fae5">943</text>
+    <text x="767" y="111" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="800" fill="#d1fae5">947</text>
   </g>
   <g>
     <rect x="826" y="78" width="90" height="42" rx="7" fill="#07111f" stroke="#1e3a5f" />
@@ -242,7 +242,7 @@
   <rect x="334" y="311" width="13" height="13" rx="2" fill="#164e63" />
   <rect x="363" y="322" width="13" height="2" rx="2" fill="#1f2937" />
   <rect x="392" y="314" width="13" height="10" rx="2" fill="#164e63" />
-  <rect x="421" y="316" width="13" height="8" rx="2" fill="#164e63" />
+  <rect x="421" y="315" width="13" height="9" rx="2" fill="#164e63" />
   <rect x="450" y="294" width="13" height="30" rx="2" fill="#38bdf8" />
   <rect x="479" y="311" width="13" height="13" rx="2" fill="#164e63" />
   <rect x="508" y="308" width="13" height="16" rx="2" fill="#22c55e" />
@@ -258,6 +258,6 @@
   <rect x="798" y="322" width="13" height="2" rx="2" fill="#164e63" />
   <rect x="827" y="322" width="13" height="2" rx="2" fill="#164e63" />
   <rect x="856" y="322" width="13" height="2" rx="2" fill="#164e63" />
-  <rect x="885" y="322" width="13" height="2" rx="2" fill="#164e63" />
+  <rect x="885" y="318" width="13" height="6" rx="2" fill="#164e63" />
   <text x="918" y="290" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#64748b">▦ ▧ ▦ ▧ ▦ ▧ ▦</text>
 </svg>
