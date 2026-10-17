@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = resolve(__dirname, "..");
 const login = process.env.PROFILE_LOGIN ?? "achref-soua";
-const avatarPath = resolve(repoRoot, "assets/avatar.svg");
+const avatarPath = resolve(repoRoot, "assets/pixel-biker-avatar.png");
 const outputPath = resolve(repoRoot, "assets/profile-card.svg");
 const activityPath = resolve(repoRoot, "assets/portfolio-activity.json");
 
@@ -45,15 +45,6 @@ async function graphql(query, variables) {
   }
 
   return payload.data;
-}
-
-function extractAvatarPng() {
-  const avatar = readFileSync(avatarPath, "utf8");
-  const match = avatar.match(/data:image\/png;base64,([^"]+)/);
-  if (!match) {
-    throw new Error(`Could not find embedded PNG data in ${avatarPath}`);
-  }
-  return match[1];
 }
 
 function format(value) {
@@ -250,7 +241,7 @@ async function main() {
   };
 
   const activityDays = contributions.contributionCalendar.weeks.flatMap((week) => week.contributionDays).slice(-30);
-  const svg = renderSvg({ avatarPng: extractAvatarPng(), activityDays, stats });
+  const svg = renderSvg({ avatarPng: readFileSync(avatarPath).toString("base64"), activityDays, stats });
 
   mkdirSync(dirname(outputPath), { recursive: true });
   writeFileSync(outputPath, svg);
