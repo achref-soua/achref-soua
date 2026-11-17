@@ -1,5 +1,5 @@
 {
-  "githubUpdatedAt": "2026-11-16T15:47:21.480Z",
+  "githubUpdatedAt": "2026-11-17T16:00:01.808Z",
   "user": {
     "public_repos": 15,
     "followers": 5
@@ -156,17 +156,17 @@
       "fork": false
     }
   ],
-  "mediumUpdatedAt": "2026-11-16T15:47:21.480Z",
+  "mediumUpdatedAt": "2026-11-17T16:00:01.808Z",
   "medium": [
     {
       "title": "Quiver, Part 5: Beyond Search: RAG, Ops, and Scaling Out Without Breaking a Promise",
-      "link": "https://rss2json.com/to/AjpdyIz3Cd1ihJB_l8fi5Wd-sw",
+      "link": "https://achref-soua.medium.com/quiver-part-5-beyond-search-rag-ops-and-scaling-out-without-breaking-a-promise-9b4f36606b1c?source=rss-7301f69af1cc------2",
       "pubDate": "2026-08-11 20:11:33",
       "categories": []
     },
     {
       "title": "Quiver, Part 4: The Numbers, Honestly: Benchmarking at a Fixed Recall (and Where Mine Loses)",
-      "link": "https://rss2json.com/to/RD4_55bQKxsxPgqzDYfLhh9O_A",
+      "link": "https://achref-soua.medium.com/quiver-part-4-the-numbers-honestly-benchmarking-at-a-fixed-recall-and-where-mine-loses-fcfced602451?source=rss-7301f69af1cc------2",
       "pubDate": "2026-08-11 20:11:22",
       "categories": [
         "faiss",
@@ -178,7 +178,7 @@
     },
     {
       "title": "Quiver, Part 3: Surviving kill -9, the Trust Layer of a Vector Database",
-      "link": "https://rss2json.com/to/7MVsAF-fliPI8SD0yhunBN5hhw",
+      "link": "https://achref-soua.medium.com/quiver-part-3-surviving-kill-9-the-trust-layer-of-a-vector-database-7dca4efd2f4d?source=rss-7301f69af1cc------2",
       "pubDate": "2026-08-10 20:05:35",
       "categories": [
         "database",
@@ -190,7 +190,7 @@
     },
     {
       "title": "Quiver, Part 2: Inside the Engine: SIMD, HNSW, and the 32× Memory Trick",
-      "link": "https://rss2json.com/to/Ruj4InuQ2miiBJefHhDmJayufg",
+      "link": "https://achref-soua.medium.com/quiver-part-2-inside-the-engine-simd-hnsw-and-the-32-memory-trick-21538546c6c2?source=rss-7301f69af1cc------2",
       "pubDate": "2026-08-10 20:03:22",
       "categories": [
         "algorithms",
@@ -202,7 +202,7 @@
     },
     {
       "title": "Quiver, Part 1: What Is a Vector Database? The Four Ideas Behind the One I Built",
-      "link": "https://rss2json.com/to/K0E_TG0a8ZL4hP37UdFOZakBfA",
+      "link": "https://achref-soua.medium.com/quiver-part-1-what-is-a-vector-database-the-four-ideas-behind-the-one-i-built-f51a62241339?source=rss-7301f69af1cc------2",
       "pubDate": "2026-07-18 18:47:26",
       "categories": [
         "llm",
@@ -214,7 +214,7 @@
     },
     {
       "title": "☀️Helio: The Free, Open-Source HubSpot alternative you can actually own",
-      "link": "https://rss2json.com/to/z0nv8wkjmE2NQZL3ZngCDO4NKQ",
+      "link": "https://achref-soua.medium.com/%EF%B8%8Fhelio-the-free-open-source-hubspot-alternative-you-can-actually-own-372eaa09990a?source=rss-7301f69af1cc------2",
       "pubDate": "2026-06-13 13:26:50",
       "categories": [
         "software-development",
