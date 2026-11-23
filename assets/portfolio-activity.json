@@ -1,5 +1,5 @@
 {
-  "githubUpdatedAt": "2026-11-22T14:35:26.707Z",
+  "githubUpdatedAt": "2026-11-23T18:09:44.202Z",
   "user": {
     "public_repos": 15,
     "followers": 4
@@ -102,7 +102,7 @@
       "language": "TypeScript",
       "updated_at": "2026-11-21T14:42:55Z",
       "stargazers_count": 25,
-      "forks_count": 6,
+      "forks_count": 5,
       "fork": false
     },
     {
@@ -156,7 +156,7 @@
       "fork": false
     }
   ],
-  "mediumUpdatedAt": "2026-11-22T14:35:26.707Z",
+  "mediumUpdatedAt": "2026-11-23T18:09:44.202Z",
   "medium": [
     {
       "title": "Quiver, Part 5: Beyond Search: RAG, Ops, and Scaling Out Without Breaking a Promise",
